@@ -23,6 +23,8 @@ pip install locust-fixed-interval
 ## Example usage
 
 ```python
+from locust_fixed_interval import FixedIntervalTaskSet
+
 class MyTaskSet(FixedIntervalTaskSet):
 
   def setup(self):
