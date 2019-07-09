@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name='locust_fixed_interval',
-    version='0.1',
+    version='0.2',
     author="Alexandre Gattiker",
     author_email="algattik@microsoft.com",
     description="Fixed interval taskset utility package for Locust",
