@@ -14,6 +14,12 @@ the Locust framework code additionally requires 0.1 second between requests,
 you should set 'interval' to a value over 2.0 seconds. If you need a higher
 request rate, increase the number of simulated users.
 
+## Installing
+
+```
+pip install locust-fixed-interval
+```
+
 ## Example usage
 
 ```python
