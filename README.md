@@ -20,6 +20,12 @@ request rate, increase the number of simulated users.
 pip install locust-fixed-interval
 ```
 
+## Docker image
+
+```
+[algattik/locust-fixed-interval](https://hub.docker.com/r/algattik/locust-fixed-interval)
+```
+
 ## Example usage
 
 ```python
